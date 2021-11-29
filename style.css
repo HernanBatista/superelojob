@@ -1,0 +1,574 @@
+/*
+Theme Name: Fastelojob 2020
+Author: Hernan Batista
+Author URI: instagram.com/hernanb13
+Description: Tema feito para Fastelojob.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html,body{
+    margin:0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+a:hover{color:#d23000;!important;}
+.navbar a:hover{color:#02b9ff!important;background:#fff0!important;border-radius:15px;}
+button:hover a{color:#fff!important;}
+
+.selecionado{
+  border: solid 2px #23de62d1;;
+}
+
+body{
+    background-color:#fff;
+}
+
+#shd2{
+	width: 80%;
+    margin: 0 auto;
+    padding: 4px;
+	display: flex;
+}
+
+.plt2{display: flex;}
+
+#coach{letter-spacing: 10px;font-size: 60px;position: relative;}
+
+.navbar.is-link {
+	background-color: #ffffff00!important;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.navbar-start{
+	font-family: Arial;
+    font-weight: 00;
+    font-size: inherit;
+    font-size: 20px;
+    font-variant: all-petite-caps;
+}
+
+#logo{
+	width: 150px;
+    height: 50px;
+    background: url(images/novologo2.png);
+}
+
+#hd{
+	width: 100%;
+    height: 85px;
+    background: #191919;
+}
+
+#shd{
+	width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+	display: flex;
+}
+
+#toplogo{
+	width: 100%;
+    height: 100%;
+    padding: 80px 0px;
+}
+
+#toplogo2{
+	width: 670px;
+    height: 175px;
+    background: url(images/toplogo.png);
+    background-size: auto;
+    margin: auto;
+}
+
+#black{background:url(images/back2.jpg);margin-top: -20px;background-size: cover;}
+
+#black2{
+	width: 100%;
+	min-height: 550px;
+}
+
+.b1{background: url('images/back1.jpg');
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;}
+.b3{background:#fff!important;}
+.b4{background: url(images/back2.jpg);}
+.b5{background: url(images/back3.jpg);margin-top: -71px;}
+
+#back1{
+	width: 100%;
+    height: 397px;
+    background: url(images/back1.jpg);
+    opacity: 0.9;
+}
+
+#back2{
+    width: 100%;
+    min-height: 397px;
+    opacity: 0.9;
+    background-size: cover;
+}
+
+.box2 {
+  position: relative;
+  height: 400px;
+}
+
+.box2:after {
+    background-image: linear-gradient(#dadada, white, white);
+    bottom: -69px;
+    content: '';
+    display: block;
+    height: 25%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    transform: skewY(-2deg);
+    transform-origin: 0%;
+}
+
+#bd1{
+    width: 100%;
+    height: 100px;
+}
+
+#bd3{
+    width: 100%;
+    min-height: 100px;
+}
+
+.cnz{background-color: #e7e7e8;margin-top:10px;}
+.wht{background-color: #fff;z-index: 4;position: relative;}
+.wht2{color: #ffffff!important;}
+.blu{color:#141415!important;}
+
+#bd2{
+    max-width: 700px;
+    background-color: #191919;
+    padding: 10px;
+    -webkit-transform: skew(1.8deg);
+    -ms-transform: skew(1.8deg);
+    transform: skewY(1.8deg);
+    border-radius: 5px;
+    border: 2px #fff solid;
+}
+
+.ORGsb1{
+	width: 100%%;
+    display: flex;
+	min-height: 30px;
+}
+
+.ORGsb2{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.sb2{
+    font-variant: all-petite-caps;
+    font-size: 20px;
+	margin-right:25px;
+}
+
+.skew {
+    -webkit-transform: skew(-1.8deg);
+    -ms-transform: skew(-1.8deg);
+    transform: skewY(-1.8deg);
+    margin-top: -23px;
+}
+
+.txt1{
+	font-variant: all-petite-caps;
+	font-family: Tahoma;
+    font-weight: bold;
+    font-size: 40px;
+    color: #6f1a00;
+}
+
+.txt2{
+	-webkit-transform: skew(1.8deg);
+    -ms-transform: skew(1.8deg);
+    transform: skewY(1.8deg);
+	padding-top:5px;
+}
+
+.hidden{display:none;}
+
+#cl1{
+	height:240px;
+}
+#cl2{display:flex;padding:10px;}
+
+#paibd1{
+	width: 100%;
+    padding-top: 140px;
+}
+
+.plat2{
+    width: 170px;
+    height: 40px;
+    background: #fff;
+    margin-left: 20px;
+    box-shadow: 0px 0px 11px #00000030;
+    margin-bottom: 10px;
+    padding: 6px 0px 0px 15px;}
+
+.plat{
+	min-width: 250px;
+    min-height: 50px;
+    background: #fff;
+    margin-left: 50px;
+    box-shadow: 0px 0px 11px #00000030;
+    margin-bottom: 25px;
+	padding: 7px 0px 7px 20px;
+}
+
+.plat:hover{
+	box-shadow: 0px 0px 11px #009c3d5e;
+}
+
+#ninja{
+	width: 100%;
+    height: 467px;
+    background: url(images/bk.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#opi{
+	width: 50%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#star{
+	width: 10%;
+    margin: 0 auto;
+}
+
+#prf{
+    border: solid #151515;
+    border-radius: 40px;
+}
+
+#blgd{
+	width: 100%;
+    height: 813px;
+}
+
+#gdbl{
+	width: 100%;
+    min-height: 510px;
+    background: #252525;
+	padding-top: 50px;
+}
+
+#insd{
+	width: 75%;
+    max-height: 460px;
+    background: #00000040;
+    padding: 20px;
+    z-index: 2;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 12.5%;
+}
+
+#footer{
+	min-height: 315px;
+    margin-top: -90px;
+    width: 100%;
+    background: #191919;
+    padding-top: 50px;
+}
+
+#suback1{
+	width: 70%;
+    margin: 0 auto;
+    height: 100%
+}
+
+#imgtp{
+	width: 465px;
+    height: 400px;
+    background: url(images/testa4.png);
+    background-size: cover;
+    background-position: top;
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+	background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 18px;
+    margin-top: 12px;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 10px 10px 10px 20px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+	border-left: 3px #a0a0a0 solid;
+	border-right: 3px #a0a0a0 solid;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+	padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    color: #fff;
+	font-size: 1.2rem!important;
+}
+
+div.panel.show {
+    display: block !important;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #fff;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+#ft1{width: 49%;height: 100%;}
+	.ORGsb1 ul{
+		display: inline-table;
+	}
+	.ORGsb1 li:hover{
+		background: #801d00;
+    border-radius: 10px;
+	}
+	.ORGsb1 li{
+	width: auto;
+    height: 50px;
+    padding: 10px 5px 10px 5px;
+    float: left;
+    margin: 0px 5px 0px 0px;
+	}
+	.ORGsb1 button{
+	color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 3px;
+    background: none;
+    border: none;
+    cursor: pointer;
+	}
+	.ORGsb1 button:hover{
+		    color: #fff;
+    font-size: 18px;
+	}
+	
+.plat button{
+	color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+	
+#serv1{
+	width: 100%;
+    height: 300px;
+    background: #f9f9f9;
+    margin-bottom: -51px;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6{
+	max-width: 700px;
+    height: 100%;
+    padding: 20px;
+}
+
+.serv3{
+	min-width: 200px;
+    height: auto;
+    display: flex;
+    margin: 10px;
+}
+
+#elob{
+	margin: 6px 15px 5px 1px;
+}
+
+.fspanel{font-size: 15px;}
+
+/* CHECKBOX */
+label.is-checkbox {
+	background: #b3b6b900;
+    border: 1px solid transparent;
+    color: black;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-flex;
+    justify-content: center;
+    padding: calc(0.375em - 1px) 0.75em;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label.is-checkbox.is-primary {
+  background: #00d1b2;
+}
+label.is-checkbox.is-info {
+  background: #209cee;
+}
+label.is-checkbox.is-danger {
+  background: #ff3860;
+}
+label.is-checkbox.is-warning {
+  background: #ffdd57;
+  color: #363636;
+}
+label.is-checkbox.is-warning .checkmark:before {
+  background: rgba(245, 245, 245, 0.8);
+}
+label.is-checkbox.is-success {
+  background: #23d160;
+}
+label.is-checkbox.is-static {
+  background-color: #f5f5f5;
+  border-color: #dbdbdb;
+  color: #7a7a7a;
+  box-shadow: none;
+  pointer-events: none;
+}
+label.is-checkbox.is-static .checkmark:before {
+  background: rgba(122, 122, 122, 0.3);
+}
+label.is-checkbox.is-primary {
+  background: #00d1b2;
+}
+label.is-checkbox .checkmark {
+  color: transparent;
+  position: relative;
+}
+label.is-checkbox .checkmark i {
+  z-index: 1;
+}
+label.is-checkbox .checkmark:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  border-radius: 2px;
+  background: rgba(54, 54, 54, 0.3);
+  border: 1px solid rgba(54, 54, 54, 0.2);
+}
+label.is-checkbox input[type="checkbox"] {
+  position: absolute;
+  visibility: hidden;
+  cursor: pointer;
+}
+label.is-checkbox input[type="checkbox"]:checked ~ .checkmark {
+  color: inherit;
+}
+label.is-checkbox.is-rounded {
+  border-radius: 9999px;
+}
+label.is-checkbox.is-rounded .checkmark:before {
+  border-radius: 9999px;
+}
+label.is-checkbox:hover {
+  box-shadow: inset 0px 0px 9999px rgba(0, 0, 0, 0.05);
+}
+label.is-checkbox:active {
+  box-shadow: inset 0px 0px 9999px rgba(0, 0, 0, 0.1);
+}
+label.is-checkbox.is-small {
+  font-size: 0.85rem;
+}
+label.is-checkbox.is-medium {
+  font-size: 1.25rem;
+}
+label.is-checkbox.is-large {
+  font-size: 1.5rem;
+}
+label.is-checkbox .icon, label.is-checkbox .icon.is-small, label.is-checkbox .icon.is-medium, label.is-checkbox .icon.is-large {
+  height: 1.5em;
+  width: 1.5em;
+  margin-left: -0.35em;
+  margin-right: 0.35em;
+}
+label.is-checkbox .icon:first-child:not(:last-child) {
+  margin-right: 0.1875em;
+  margin-left: calc(-01.375em - 1px);
+}
+label.is-checkbox .icon:last-child:not(:first-child) {
+  margin-left: 0.1875em;
+  margin-right: calc(-0.375em - 1px);
+}
+label.is-checkbox .icon:first-child:last-child {
+  margin-left: calc(-0.575em - 1px);
+}
+
+/* CHECKBOX FINAL*/
+
+
+
+@media screen and (max-width: 768px){
+	.container{max-width: 768px;}
+	#imgtp{display:none;}
+	.mhide{display:none!important;}
+	#opi{width: 100%;}
+	#ft1{width: 90%;height: 100%;}
+	.b5{margin-top: 0px;}
+	#toplogo2{max-width: 297px;height: 130px;background: url(images/toplogomobile.png);background-size: contain;margin: auto;}
+	#serv1{height: 400px;margin-top: 85px;}
+	#bd1{height: 135px;}
+	
+	/* eloboost */
+	.finalprice{margin-top: 0px!important;}
+	#veigar2{width:95%!important;padding:0!important;}
+	#elo2{display: inline-grid;}
+	#elosec{height: 1530px!important;}
+	#neutra{width: 89%!important;margin: 0 0px 10px 0!important;}
+	#elodst{margin-top: 80px!important;}
+	.section{padding: 3rem 1.0rem!important;}
+	#elosec{height: 0px;width: 100%;}
+	#elo2{width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: -233px;
+    padding-top: 75px;}
+	.elo3{margin: 0px 0px 10px 0px!important;}
+	label.is-checkbox.is-small{white-space: pre-line;}
+	#elo2{max-width: 370px!important;}
+	.navbar.is-link{width: 100%;position: absolute;}
+}
+
+@media screen and (min-width: 2200px){
+	.box2:after {display:none;}
+}
